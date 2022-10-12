@@ -1,0 +1,63 @@
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+.faq {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box {
+	width: 30rem;
+	border: 1px solid black;
+	padding: 1rem 2rem;
+	margin: 1.5rem 0rem;
+}
+
+.chevron {
+	content: '';
+	display: inline-block;
+	position: relative;
+
+	height: 0.45em;
+	width: 0.45em;
+
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+
+	left: 0.15em;
+	top: 0.15em;
+
+	vertical-align: top;
+	transform: rotate(135deg);
+}
+
+.chevron-hide {
+	content: '';
+	display: inline-block;
+	position: relative;
+
+	height: 0.45em;
+	width: 0.45em;
+
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+
+	left: 0.15em;
+	top: 0.15em;
+
+	vertical-align: top;
+	transform: rotate(45deg);
+}
+
+.hide {
+	display: none;
+}
