@@ -38,26 +38,25 @@ body {
 
 	vertical-align: top;
 	transform: rotate(135deg);
+	transition: transform 0.2s ease;
 }
 
 .chevron-hide {
-	content: '';
-	display: inline-block;
-	position: relative;
-
-	height: 0.45em;
-	width: 0.45em;
-
-	border-style: solid;
-	border-width: 0.25em 0.25em 0 0;
-
-	left: 0.15em;
-	top: 0.15em;
-
-	vertical-align: top;
 	transform: rotate(45deg);
+	transition: transform 0.2s ease;
+}
+
+.answer {
+	opacity: 1;
+	transition: all 0.2s ease;
 }
 
 .hide {
-	display: none;
+	opacity: 0;
+
+	transition: all 0.2s ease;
+
+	/* Remove height and margin so the box grows larger when show again */
+	height: 0;
+	margin: 0;
 }
