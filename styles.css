@@ -48,13 +48,11 @@ body {
 
 .answer {
 	opacity: 1;
-	transition: all 0.2s ease;
+	transition: all 0.25s ease;
 }
 
 .hide {
 	opacity: 0;
-
-	transition: all 0.2s ease;
 
 	/* Remove height and margin so the box grows larger when show again */
 	height: 0;
